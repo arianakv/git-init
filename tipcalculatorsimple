@@ -1,0 +1,6 @@
+puts "How much is the bill?"
+bill = gets.chomp.to_f
+tip_percent = 0.20
+tip_amount = bill * tip_percent
+total = tip_amount + bill 
+puts "The total is $#{total}"
